@@ -36,6 +36,7 @@ All shortcuts/keymaps can be found [in the documentation on the website](https:/
 - Multiple selections
 - Built-in language server support
 - Smart, incremental syntax highlighting and code editing via tree-sitter
+- Display of current file path in the status line
 
 Although it's primarily a terminal-based editor, I am interested in exploring
 a custom renderer (similar to Emacs) using wgpu or skulpin.
@@ -62,3 +63,16 @@ Discuss the project on the community [Matrix Space](https://matrix.to/#/#helix-c
 # Credits
 
 Thanks to [@jakenvac](https://github.com/jakenvac) for designing the logo!
+
+## Building from Source
+
+To build this project, you need to have [Rust](https://www.rust-lang.org/tools/install) and Cargo installed.
+
+1. Open a terminal and navigate to the project directory.
+2. Run the following command:
+   ```sh
+   cargo build --release
+   ```
+   This will compile the project with optimizations and place the binary in the `target/release` directory.
+
+For more details or troubleshooting, see the [official Rust documentation](https://doc.rust-lang.org/cargo/).
